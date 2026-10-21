@@ -26,8 +26,8 @@ than the one above have not been validated with this generated platform project
 and lockfile. Android minimum API is **26**; iOS minimum version is **16**.
 
 ```sh
-git clone https://github.com/yong190/zus-application-assessment.git
-cd zus-application-assessment
+git clone https://github.com/yong190/zus-application-assessment.git zus_application_assessment
+cd zus_application_assessment
 flutter pub get
 flutter devices
 flutter run -d <device-id>
