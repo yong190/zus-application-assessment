@@ -1,0 +1,26 @@
+name: zus_application_assessment
+description: "ZUS Application – Assessment: a Flutter Bloc menu and cart."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.10.0
+  flutter: '>=3.38.10'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^9.2.1
+  flutter_bloc: ^9.1.1
+  equatable: ^3.0.0
+  go_router: ^17.3.0
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_lint: ^0.4.3
+  bloc_test: ^10.0.0
+
+flutter:
+  uses-material-design: true
