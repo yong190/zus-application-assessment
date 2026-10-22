@@ -195,11 +195,3 @@ from the actual Flutter widgets using fixtures and loaded Roboto/Material fonts;
 they are not emulator screenshots. [Android emulator screenshots](docs/emulator/)
 record the separate API 37 runtime checks, including live networking and recovery,
 checkout success/failure, and retained cart state across configuration changes.
-
-## Submission
-
-Submission repository: [yong190/zus-application-assessment](https://github.com/yong190/zus-application-assessment).
-The repository is public so reviewers can open it directly. Source and the
-lockfile are included; generated build outputs, local SDK paths and tool caches
-are excluded by the supplied ignore files. The Android release configuration uses debug signing for assessment
-convenience; production distribution would require proper release signing.
